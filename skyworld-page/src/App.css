@@ -1,0 +1,231 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/*O center ajuda no responsivo (UTILIZAR SEMPRE)*/
+.center {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+/**/
+@media screen and (max-width: 1020px) {
+  .app-main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .app-main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .app-main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .app{
+    min-width: 100%;
+  }
+  
+  .app-links .app-links-list .app-link .link {
+    font-weight: bold;
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+  }
+
+  .app-about .center .app-about-text p {
+    margin-bottom: 30px;
+  }
+}
+/**/
+.app-header {
+  background-image: url(Assets/sky-day.gif);
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  min-width: 250px;
+  min-height: 250px;
+}
+
+.app-about {
+  background-color: #1AB2FF;
+  min-height: 250px;
+  min-width: 100%;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.app-about .center .app-about-all {
+  text-align: center;
+  padding: 6px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-about .center .app-about-titlle {
+  margin: 10px;
+}
+.app-about .center .app-about-titlle h1 {
+  font-size: 55px;
+  margin: 10px;
+}
+.app-about .center .app-about-text{
+  display: flex;
+  flex-wrap: wrap;
+}
+.app-about .center .app-about-text p {
+  font-size: 30px;
+}
+
+.app-links {
+  min-height: 70px;
+  background-color: #FFF01A;
+}
+
+.app-links .app-links-list {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+
+}
+
+.app-links .app-links-list .app-link {
+  margin-top: 10px;
+  align-items: center;
+  font-size: 35px;
+}
+
+.app-links .app-links-list .app-link .link {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.app-main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #0C5B7F;
+}
+
+.app-main1{
+  min-width: 50%;
+}
+
+.main1 {
+  display:  flex;
+  flex-direction: column;
+  min-height: max-content;
+  background-color: #0C5B7F;
+}
+.app-skypics {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+}
+.skypics-item {
+  height: 400px;
+  width: 450px;
+  padding: 5px;
+  align-items: center;
+  margin: 45px 5px;
+}
+.skypics-img {
+  height: 300px;
+  width: 400px;
+  align-items: center;
+  margin: 5px;
+}
+.skypics-text {
+  font-size: 23px;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  margin-bottom: 25px;
+}
+
+.app-main2{
+  min-width: 50%;
+}
+
+
+.main2 {
+  display:  flex;
+  flex-direction: column;
+  min-height: max-content;
+  min-width: 35vmax;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+.app-naturepics {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.app-naturepics h2{
+  color: #0C5B7F;
+  font-size: 40px;
+  margin: 20px auto;
+}
+.nature-item-m {
+  height: 400px;
+  width: 450px;
+  padding: 5px;
+  align-items: center;
+}
+.nature-img-m {
+  height: 300px;
+  width: 400px;
+  align-items: center;
+  margin: 5px;
+}
+.nature-item-n {
+  height: 400px;
+  width: 450px;
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.nature-img-n {
+  height: 400px;
+  width: 300px;
+  align-items: center;
+  margin: 5px;
+}
+
